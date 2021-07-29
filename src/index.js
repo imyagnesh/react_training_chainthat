@@ -5,13 +5,15 @@ import './root.css'
 const App = (props) => {
   return (
     <>
-      <h1>{props.name}</h1>
-      <h2 className="header">{props.greet}</h2>
-      <input type="text" />
-      <input type="checkbox" />
-      <input type="password" />
+      <br></br>
+      <label><b>{props.userLabel}</b></label>
+      <input type="text" placeholder={props.user}/>
+      <br></br>
+      <br></br>
+      <label><b>{props.pwLabel}</b></label>
+      <input type="text" placeholder={props.password}/>
     </>
   );
 };
 
-ReactDOM.render(<App name="yagnesh" greet="hello" />, document.getElementById("root"));
+ReactDOM.render(<App userLabel="User Name : " pwLabel="Password : " user="ashish.jain" password="thisispassword"/>, document.getElementById("root"));
