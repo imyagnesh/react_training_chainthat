@@ -1,17 +1,27 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import './root.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './root.css';
 
-const App = (props) => {
-  return (
-    <>
-      <h1>{props.name}</h1>
-      <h2 className="header">{props.greet}</h2>
-      <input type="text" />
-      <input type="checkbox" />
-      <input type="password" />
-    </>
-  );
+
+const App=(props)=>{
+   return(
+   <>
+     <form className="form-part">
+        
+     <label>
+         <input className='form-input' type="text" placeholder="username" defaultValue={props.userName}></input>
+     </label>
+     <label> 
+         <input className='form-input' type="password" placeholder="password" defaultValue={props.password}></input>
+     </label>
+     <label><button type="submit">Submit</button></label>
+     </form>
+   </>
+   )
 };
 
-ReactDOM.render(<App name="yagnesh" greet="hello" />, document.getElementById("root"));
+ReactDOM.render(
+<App userName="rahul.singh@chainthat.com" password="password"/>,
+document.getElementById("root")
+);
+
