@@ -4,14 +4,17 @@ import './root.css'
 
 const App = (props) => {
   return (
-    <>
-      <h1>{props.name}</h1>
-      <h2 className="header">{props.greet}</h2>
-      <input type="text" />
-      <input type="checkbox" />
-      <input type="password" />
-    </>
+   <div>
+     <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <label for="userName"><b>Username</b></label>
+    <input type="text" value={props.name} name="email" id="email" required></input>
+    <label for="pwd"><b>Password</b></label>
+    <input type="password" value={props.pwd} name="email" id="email" required></input>
+    
+   </div>
+   
   );
 };
 
-ReactDOM.render(<App name="yagnesh" greet="hello" />, document.getElementById("root"));
+ReactDOM.render(<App name="aakanksha" pwd="mypassword" />, document.getElementById("root"));
