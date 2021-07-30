@@ -8,10 +8,10 @@ const App=(props)=>{
    <>
      <form className="form-part">
         
-     <label>
+     <label> Enter Username :  
          <input className='form-input' type="text" placeholder="username" defaultValue={props.userName}></input>
      </label>
-     <label> 
+     <label> Enter Password :  
          <input className='form-input' type="password" placeholder="password" defaultValue={props.password}></input>
      </label>
      <label><button type="submit">Submit</button></label>
