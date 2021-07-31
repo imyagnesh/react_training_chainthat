@@ -1,0 +1,44 @@
+{
+    "weather_reports": [
+      {
+        "city": "Dehradun",
+        "report": "Intervals of clouds and sunshine with a couple of thunderstorms, especially late in the day",
+        "id": 1
+      },
+      {
+        "city": "Delhi",
+        "report": "A thunderstorm in spots this evening; otherwise, cloudy",
+        "id": 2
+      },
+      {
+        "city": "Hyderabad",
+        "report": "Considerable cloudiness",
+        "id": 3
+      },
+      {
+        "city": "Goa",
+        "report": "Partly cloudy with a brief shower late",
+        "id": 3
+      },
+      {
+        "city": "Banglore",
+        "report": "Breezy and pleasant with clouds and sunshine",
+        "id": 3
+      },
+      {
+        "city": "Pune",
+        "report": "Mostly cloudy and windy with occasional rain",
+        "id": 3
+      },
+      {
+        "city": "Assam",
+        "report": "Periods of rain and a thunderstorm late this morning followed by a thunderstorm in parts of the area this afternoon",
+        "id": 3
+      },
+      {
+        "city": "Trivandrum",
+        "report": "A shower in places this evening; otherwise, rather cloudy",
+        "id": 4
+      }
+    ]
+  }
