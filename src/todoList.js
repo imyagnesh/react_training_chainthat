@@ -23,8 +23,7 @@ const TodoList = ({ todoList, toggleTodo, deleteTodo, status }) => {
               {todo.text}
             </span>
             <button
-              type="button"
-              disabled={status === "delete_data"}
+              type="button" id={todo.id}
               onClick={() => deleteTodo(todo)}
             >
               Delete Todo
