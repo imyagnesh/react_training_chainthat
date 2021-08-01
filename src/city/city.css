@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.city-list-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+
