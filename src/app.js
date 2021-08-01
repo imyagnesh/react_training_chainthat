@@ -64,7 +64,6 @@ class App extends PureComponent {
         `todoList/${todo.id}`,
         { ...todo, isDone: !todo.isDone }
       );
-
       this.setState(({ todoList }) => {
         const index = todoList.findIndex((item) => item.id === todo.id);
         return {
@@ -85,7 +84,7 @@ class App extends PureComponent {
     try {
       this.setState({ status: "delete_data" });
       await axiosInstance.delete(`todoList/${todo.id}`);
-
+      document.getElementById(todo.id).disabled = true;
       this.setState(({ todoList }) => {
         const index = todoList.findIndex((item) => item.id === todo.id);
         return {

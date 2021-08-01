@@ -10,9 +10,8 @@ const TodoList = ({ todoList, toggleTodo, deleteTodo, status }) => {
             <input
               type="checkbox"
               name="isDone"
-              id="isDone"
+              id={todo.id}
               checked={todo.isDone}
-              disabled={status === "update_data"}
               onChange={() => toggleTodo(todo)}
             />
             <span
@@ -24,7 +23,7 @@ const TodoList = ({ todoList, toggleTodo, deleteTodo, status }) => {
             </span>
             <button
               type="button"
-              disabled={status === "delete_data"}
+              id={todo.id}
               onClick={() => deleteTodo(todo)}
             >
               Delete Todo
