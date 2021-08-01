@@ -60,6 +60,8 @@ class App extends PureComponent {
   toggleTodo = async (todo) => {
     try {
       this.setState({ status: "update_data" });
+      this.setState({ status: `update_data_${todo.id}` });
+
       const res = await axiosInstance.put(
         `todoList/${todo.id}`,
         { ...todo, isDone: !todo.isDone }
@@ -85,6 +87,7 @@ class App extends PureComponent {
     try {
       this.setState({ status: "delete_data" });
       await axiosInstance.delete(`todoList/${todo.id}`);
+      this.setState({ status: `delete_data_${todo.id}` });
 
       this.setState(({ todoList }) => {
         const index = todoList.findIndex((item) => item.id === todo.id);
