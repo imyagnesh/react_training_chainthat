@@ -1,0 +1,40 @@
+{
+    "weather": [
+        {
+            "city": "delhi",
+            "temp_c": 30,
+            "feelslike_c": 32,
+            "humidity": 83
+        },
+        {
+            "city": "chandigarh",
+            "temp_c": 25,
+            "feelslike_c": 25,
+            "humidity": 56
+        },
+        {
+            "city": "manali",
+            "temp_c": 12,
+            "feelslike_c": 12,
+            "humidity": 12
+        },
+        {
+            "city": "leh",
+            "temp_c": 9,
+            "feelslike_c": 7,
+            "humidity": 11
+        },
+        {
+            "city": "shimla",
+            "temp_c": 13,
+            "feelslike_c": 13,
+            "humidity": 22
+        },
+        {
+            "city": "mumbai",
+            "temp_c": 32,
+            "feelslike_c": 34,
+            "humidity": 77
+        }
+    ]
+}

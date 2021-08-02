@@ -5,6 +5,7 @@ import App from './app';
 // import Child2 from "./test2";
 // import Error from './error';
 import "./root.css";
+import Weather from "./weather";
 
 // Function component
 // 1. Start with capital letter
@@ -198,6 +199,7 @@ import "./root.css";
 // }
 
 ReactDOM.render(
-  <App />,
+
+  <Weather />,
   document.getElementById("root")
 );
