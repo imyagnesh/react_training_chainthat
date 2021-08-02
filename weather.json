@@ -1,0 +1,39 @@
+{
+  "weatherList": [
+    {
+      "city": "Pune",
+      "temperature": 29,
+      "id": 1
+    },
+    {
+      "city": "Mumbai",
+      "temperature": 32,
+      "id": 2
+    },
+    {
+      "city": "Bangalore",
+      "temperature": 26,
+      "id": 3
+    },
+    {
+      "city": "Panjim",
+      "temperature": 28,
+      "id": 7
+    },
+    {
+      "city": "Delhi",
+      "temperature": 38,
+      "id": 8
+    },
+    {
+      "city": "Hyderabad",
+      "temperature": 35,
+      "id": 9
+    },
+    {
+      "city": "Chennai",
+      "temperature": false,
+      "id": 10
+    }
+  ]
+}
