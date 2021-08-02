@@ -12,7 +12,7 @@ const TodoList = ({ todoList, toggleTodo, deleteTodo, status }) => {
               name="isDone"
               id="isDone"
               checked={todo.isDone}
-              disabled={status === "update_data"}
+              disabled={status === `update_data_`+todo.id}
               onChange={() => toggleTodo(todo)}
             />
             <span
@@ -24,7 +24,7 @@ const TodoList = ({ todoList, toggleTodo, deleteTodo, status }) => {
             </span>
             <button
               type="button"
-              disabled={status === "delete_data"}
+              disabled={status === `delete_data_`+todo.id}
               onClick={() => deleteTodo(todo)}
             >
               Delete Todo

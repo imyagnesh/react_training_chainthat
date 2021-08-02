@@ -1,6 +1,8 @@
 import React, { Component, createRef } from "react";
 import ReactDOM from "react-dom";
 import App from './app';
+import WeatherApp from "./weatherApp";
+
 // import Child1 from "./test1";
 // import Child2 from "./test2";
 // import Error from './error';
@@ -198,6 +200,7 @@ import "./root.css";
 // }
 
 ReactDOM.render(
-  <App />,
+  //<App />,
+  <WeatherApp />,
   document.getElementById("root")
 );
