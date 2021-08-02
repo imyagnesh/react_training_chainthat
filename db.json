@@ -39,28 +39,14 @@
   ],
   "city": [
     {
-      "name": "Delhi",
+      "name": "Noida",
+      "temp": "32",
       "id": 1
     },
     {
-      "name": "Mumbai",
+      "name": "Delhi",
+      "temp": "34",
       "id": 2
-    },
-    {
-      "name": "Kolkata",
-      "id": 3
-    },
-    {
-      "name": "Chennai",
-      "id": 4
-    },
-    {
-      "name": "Noida",
-      "id": 5
-    },
-    {
-      "name": "Gurgaon",
-      "id": 6
     }
   ]
 }

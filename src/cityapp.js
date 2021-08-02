@@ -11,6 +11,7 @@ class CityApp extends PureComponent {
      };
 
      inputRef = createRef();
+     tempRef = createRef();
 
      componentDidMount() {
         this.fetchCityData();
@@ -34,7 +35,8 @@ class CityApp extends PureComponent {
           event.preventDefault();
           this.setState({ status: "add_data" });
           const res = await axiosInstance.post("city", {
-            name: this.inputRef.current.value
+            name: this.inputRef.current.value,
+            temp: this.tempRef.current.value,
           });
     
           this.setState(
@@ -45,6 +47,7 @@ class CityApp extends PureComponent {
             },
             () => {
               this.inputRef.current.value = "";
+              this.tempRef.current.value = "";
             }
           );
         } catch (error) {
@@ -57,7 +60,7 @@ class CityApp extends PureComponent {
         return (
             <div className="container">
                 <h1>City App</h1>
-                <CityForm addCity={this.addCity} inputRef={this.inputRef}/>
+                <CityForm addCity={this.addCity} inputRef={this.inputRef} tempRef={this.tempRef}/>
                 <CityDisplay cityList={this.state.cityList}/>
             </div>
         );

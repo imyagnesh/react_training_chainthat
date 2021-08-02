@@ -7,7 +7,7 @@ const CityDisplay = ({cityList}) => {
             {cityList.map((city) => {
                 return (
                     <div>
-                        <span>{city.name}</span>
+                        <span>{city.name} : {city.temp}</span>
                     </div>
                 )
             })
