@@ -27,43 +27,45 @@
     },
     {
       "text": "asdfadsf",
-      "isDone": false,
+      "isDone": true,
       "id": 9
     },
     {
-      "text": "asdfadsf",
+      "text": "err",
       "isDone": false,
       "id": 10
     },
     {
-      "text": "asdfadsf",
+      "text": "",
       "isDone": false,
       "id": 11
     },
     {
-      "text": "asdf",
+      "text": "dddd",
       "isDone": false,
       "id": 12
+    }
+  ],
+  "weather": [
+    {
+      "city": "Gurgoan",
+      "temperature": "35",
+      "id": 1
     },
     {
-      "text": "assdf",
-      "isDone": false,
-      "id": 13
+      "city": "Delhi",
+      "temperature": "38",
+      "id": 2
     },
     {
-      "text": "asdf",
-      "isDone": false,
-      "id": 14
+      "city": "Pune",
+      "temperature": "27",
+      "id": 3
     },
     {
-      "text": "asdf",
-      "isDone": false,
-      "id": 15
-    },
-    {
-      "text": "dsfads",
-      "isDone": false,
-      "id": 16
+      "city": "Hydrabad",
+      "temperature": "29",
+      "id": 4
     }
   ]
 }

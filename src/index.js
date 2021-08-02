@@ -1,6 +1,8 @@
 import React, { Component, createRef } from "react";
 import ReactDOM from "react-dom";
 import App from './app';
+import WeatherApp from './weather_app';
+
 // import Child1 from "./test1";
 // import Child2 from "./test2";
 // import Error from './error';
