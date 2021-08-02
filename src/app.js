@@ -98,6 +98,18 @@ class App extends PureComponent {
     }
   };
 
+  deleteTODO = (todoId) => {
+    this.setState(({todoList}) => {
+      const index = todoList.findIndex((item) => item.id === todoId);
+      return {
+        todoList: [
+          ...todoList.slice(0, index),
+          ...todoList.slice(index + 1)
+        ]
+      }
+    })
+  }
+
   render() {
     const { filter, todoList, status } = this.state;
     const filteredTodo = todoList.filter((todo) => {
