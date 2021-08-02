@@ -1,8 +1,8 @@
 import React, { PureComponent, createRef } from "react";
-import CityForm from "./city/cityForm";
-import CityDisplay from "./city/cityDisplay";
-import axiosInstance from "./utils/axiosInstance";
-import "./city/city.css";
+import CityForm from "./cityForm";
+import CityDisplay from "./cityDisplay";
+import axiosInstance from "../utils/axiosInstance";
+import "./city.css";
 
 class CityApp extends PureComponent {
      state = {
