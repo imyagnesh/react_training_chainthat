@@ -8,11 +8,6 @@
     {
       "text": "get food",
       "isDone": false,
-      "id": 2
-    },
-    {
-      "text": "get food",
-      "isDone": false,
       "id": 3
     },
     {
@@ -51,19 +46,9 @@
       "id": 13
     },
     {
-      "text": "asdf",
+      "text": "get game",
       "isDone": false,
       "id": 14
-    },
-    {
-      "text": "asdf",
-      "isDone": false,
-      "id": 15
-    },
-    {
-      "text": "dsfads",
-      "isDone": false,
-      "id": 16
     }
   ]
 }
